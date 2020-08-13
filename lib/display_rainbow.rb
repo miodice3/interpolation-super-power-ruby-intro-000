@@ -1,21 +1,10 @@
 # Write your #display_rainbow method here
-#colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 #, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}
 
-# def display_rainbow(colors)
-   #puts "R: #{colors[0]}"
- #end
+ def display_rainbow(colors)
+   puts "R: #{colors[0]}"
+  end
  
-# display_rainbow
-
-bob     = ["Bob", 46, "Juggler", "555-555-5555"]
-
-def print_business_card(person)
-  puts "Name: #{person[0]}, Age: #{person[1]}, Occupation: #{person[2]}"
-  puts "Contact: #{person[3]}"
-end
-
-
-
-print_business_card(bob)
+display_rainbow(colors)
