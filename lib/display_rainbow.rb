@@ -10,3 +10,8 @@
 # display_rainbow
 
 bob     = ["Bob", 46, "Juggler", "555-555-5555"]
+
+
+
+
+print_business_card(bob)
